@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Product Manager";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Products</h1>
+    <p></p>
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>UnitPrice</th>
+        </tr>
+    </thead>
+
+    <tbody id="items-container">
+    </tbody>
+</table>
+
+
+<div id="items-template" style="display: none">
+    <tr>
+        <td>#Name#</td>
+        <td>#Description#</td>
+        <td>#UnitPrice#</td>
+    </tr>
+</div>
+
+
+<script src="/js/Product.js"></script>
